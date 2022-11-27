@@ -82,10 +82,6 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms
 | 13.A |22.10.2022|           |Spieler fragen um das Spiel zu wiederholen|15 min|
 | 13.B |22.10.2022|           |Das spiel soll wiederholen wenn der Spieler ja ausgewählt hat|20 min|
 |     |       |           |              |               |
-|     |       |           |              |               |
-|     |       |           |              |               |
-|     |       |           |              |               |
-|     |       |           |              |               |
 
 Total: 
 
