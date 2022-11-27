@@ -108,6 +108,7 @@ Total:
 
 ## 3 Entscheiden
 
+Wir haben uns für ein Tic-Tac-Toe mit wenigen Erweiterungem entschieden. Mit Bezug auf das Spielerlebnis.
 ✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
 
 ## 4 Realisieren
