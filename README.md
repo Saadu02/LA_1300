@@ -38,8 +38,25 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |              |         |                   |
-| ...  |              |         |                   |
+| 1.1  |  Programm startet            |  2 Spieler       |  Das Spiel beginnt                 |
+| 2.1  |  Spiel beendet            | -        |  Spieler 1 hat das Spiel gewonnen.                |
+| 2.2  |  Spiel beendet            | -        |  Spieler 2 hat das Spiel gewonnen.                 |
+| 3.1  |  Programm wartet auf Eingabe            |  x auf 2       |  Ihr Zug ist zuende.                 |
+| 3.2  |  Programm wartet auf Eingabe            |  -       |  Spieler 1 am Zug                 |
+| 4.1  |  Programm wartet auf Eingabe            |  o auf 3       |  o wurde auf Feld 3 gesetzt.                 |
+| 4.2  |  Programm wartet auf Eingabe            |  o auf 2       |  Feld ist besetzt                 |
+| 4.3  |  Programm wartet auf Eingabe            |  x auf 20       |  Geben sie ein gültiges Feld ein.                 |
+| 5.1  |  Programm wird beendet            |  Gewinner       |  Gewonnen hat Spieler 1.                |
+| 6.1  |  Programm wird beendet            |  Gewinner       |  Es ist ein Unentschieden.                 |
+| 7.1  |  Programm wartet auf Namen            |  Tom       |  Tom ist am Zug.                 |
+| 7.2  |  Programm wartet auf Namen            |  #%6g       |  Geben sie einen Gültigen Namen ein.                 |
+| 8.1  |  Programm startet nochmals            |  meine Punkte       |  Sie haben 3 Punkte.                 |
+| 9.1  |  Programm startet            |  Farbe Rot       |  Ihr Symbol ist Rot.                 |
+| 10.1 |  Programm startet            |  Symbol ändern auf -      |  Ihr Symbol ist ein Strich.                 |
+| 10.2 |  Programm startet  |  Symbol ändern auf k   |  Das Symbol k nicht verfügbar.               |
+| 11.1  |  Programm wird beendet            |  Revanche       |  Sie möchten eine Revanche haben.                 |
+| 12.1  |  Programm startet            |  -       |  Programm hat blauen Hintergrund                 |
+
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
