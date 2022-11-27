@@ -1,8 +1,6 @@
 # Projekt-Dokumentation
 
-☝️ Alle Text-Stellen, welche mit einem ✍️ beginnen, können Sie löschen, sobald Sie die entsprechende Stellen ausgefüllt haben.
-
-✍️ Ihr Gruppenname und Ihre Nachnamen
+Gruppe Croissant, Brandon, Giuliano, Nils, Sathana
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
@@ -14,14 +12,24 @@
 
 ### 1.1 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| 1    |        Muss    |   F  | Als User möchte ich, dass ich zu Zweit ein Spiel spielen kann, damit das Programm seinen Zweck erfüllt.|
+| 2 |       Muss          |  F    |    Als User möchte ich, dass es anzeigt wer gewonnen hat, damit der Sieger sich freuen kann.                       |
+| 3 |    Muss             | F    |    Als User möchte ich, dass ich mein Zug nach ein Mal platzieren zu Ende ist, damit es fair ist.                                |
+| 4|       Muss          |  F    |      Als User möchte ich, dass ich mein Symbol im Feld platzieren kann, damit das Spiel funktioniert-                              |
+| 5 |      Muss           | F     |       Als User möchte ich, dass das Programm erkennt wenn jemand gewonnen hat, damit das Spiel entschieden werden kann.                             |
+| 6 |      Kann           |  F    |    Als User möchte ich, dass wenn es ein Unentschieden gibt, dass es mir dann mitgeteilt wird, damit ich meine Zeit nicht verschwende.                                |
+| 7 |    Kann            | Q     |   Als User möchte ich, dass ich einen Namen eingeben können, damit später noch weiss welches Symbol ich hatte.                                |
+| 8 |      Kann           |  Q    |       Als User möchte ich, dass die Punkte gezählt und angezeigt werden, damit ich weiss wie oft ich schon gewonnen habe.                             |
+| 9 |     Kann            |  Q    |     Als User möchte ich, die Farbe meines Kreises/Kreuzes anpassen, damit es mir besser gefällt.                   |
+| 10|    Kann             |   Q   |       Als User möchte ich, dass ich mein Symbol ändern kann, damit es besser aussieht.                             |
+| 11 |    Kann             | Q    |    Als User möchte ich, eine Revanche-Option haben, damit ich nochmal spielen kann.                                |
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
