@@ -30,7 +30,7 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms
 | 10|    Kann             |   Q   |       Als User möchte ich, dass ich mein Symbol ändern kann, damit es besser aussieht.                             |
 | 11 |    Kann             | Q    |    Als User möchte ich, eine Revanche-Option haben, damit ich nochmal spielen kann.                                |
 | 12 | kann                | Q   | Als User möchte ich, das dieses Spiel schön und Farbig gestaltet ist, damit das Aussehen von dieses Spiel nicht langweilig wird |
-
+| 13 | muss |  F | Als user möchte ich das spiel wiederholen wenn ich verloren habe, damit ich ein gewinn chance habe| 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -52,14 +52,15 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  |01.10.2022|           |zu zweit spielen |40 min|
-| 1.B  |01.10.2022|           | Spieler auswählen | 20 min|
-| 1.c  |01.10.2022|           | Auswahl ein Spieler oder zwei Spieler | 20 min|
+| 1.B  |01.10.2022|           |Auswahl ein Spieler oder zwei Spieler | 20 min|
+| 1.c  |01.10.2022|           |Spieler auswählen| 20 min|
 | 2.A  |01.10.2022|           |Ergebnis wer gewonnen |30 min|
 | 2.B  |01.10.2022|           |Gewonnen = grün anzeigen|20 min|
 | 2.C  |01.10.2022|           |Verloren = rot anzeigen| 15 min|
-| 2.d  |01.10.2022|           | Den Spieler gratulieren | 10 min|
-| 2.e  |01.10.2022|           | Den Satz mit Emoji und Farbe gestalten | 20 min|
+| 2.d  |01.10.2022|           |Den Spieler gratulieren | 10 min|
+| 2.e  |01.10.2022|           |Den Satz mit Emoji und Farbe gestalten | 20 min|
 | 3.A  |01.10.2022|           |Spieler darf ein nur Zug haben|30 min|
+| 3.B  |01.10.2022|           |immer nach ein Zug ist der nächste Spieler dran| 15 min|
 | 4.A  |01.10.2022|           |Symbole erstellen|25 min|
 | 4.B  |01.10.2022|           |Sybolen auswahl|15 min|
 | 5.A  |08.10.2022|           |Computer erkennen, wer gewonnen hat|25 min|
@@ -72,13 +73,14 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms
 | 8.c  |15.10.2022|           |Anzahl verlorene spiele Zusammen| 20 min|
 | 8.d  |15.10.2022|           |Zeigen wie viel Punkte der Spieler verloren hat|10 min|
 | 9.A  |15.10.2022|           |Auswahl Symbole Farben|15 min|
+| 9.B  |15.102022 |           |Symbole grösse selber ändern| 10 min |
 | 10.A |15.10.2022|           |Spieler kann Symbole selber erstellen|15 min|
 | 11.A |15.10.2022|           |Revanch-Option| 30 min|
-| 12.A |22.10.2022|           | Das SpielFeld Farbig erstellen | 8 min|
-| 12.B |22.10.2022|           |Andere Hintergrundfarbe | 10 min|
-| 12.B |22.10.2022|           |Hintergrundfarbe ändern von Spieler| 15 min|
-|      |15.10.2022|           |              |               |
-|     |       |           |              |               |
+| 12.A |22.10.2022|           |Das SpielFeld Farbig erstellen | 8 min|
+| 12.B |22.10.2022|           |Andere Hintergrundfarbe erstellen | 10 min|
+| 12.B |22.10.2022|           |Hintergrundfarbe ändern können von Spieler| 15 min|
+| 13.A |22.10.2022|           |Spieler fragen um das Spiel zu wiederholen|15 min|
+| 13.B |22.10.2022|           |Das spiel soll wiederholen wenn der Spieler ja ausgewählt hat|20 min|
 |     |       |           |              |               |
 |     |       |           |              |               |
 |     |       |           |              |               |
