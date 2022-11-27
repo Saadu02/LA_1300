@@ -50,8 +50,38 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  |01.10.2022|           |zu zweit spielen |40 min|
+| 1.B  |01.10.2022|           | Spieler auswählen | 20 min|
+| 2.A  |01.10.2022|           |Ergebnis wer gewonnen |30 min|
+| 2.B  |01.10.2022|           |Gewonnen = grün anzeigen|20 min|
+| 2.C  |01.10.2022|           |Verloren = rot anzeigen| 15 min|
+| 3.A  |01.10.2022|           |Spieler darf ein nur Zug haben|30 min|
+| 4.A  |01.10.2022|           |Symbole erstellen|25 min|
+| 4.B  |01.10.2022|           |Sybolen auswahl|15 min|
+| 5.A  |08.10.2022|           |Computer erkennen, wer gewonnen hat|25 min|
+| 5.B  |08.10.2022|           |Mitteilung anzeigen wenn man gewinnt|15 min|
+| 5.C  |08.10.2022|           |Mitteilungssatz Farbig gestalten|15 min|
+| 6.A  |08.10.2022|           |Mitteilung erstellen wenn unentschieden|25 min|
+| 7.A  |08.10.2022|           |eingabe Spieler Name|10 min|
+| 8.A  |08.10.2022|           |Anzahl gewonnenen spiele Zusammen| 20 min|
+| 8.B  |15.10.2022|           |Zeigen wie viel Punkte der Spieler gewonnen hat|10 min|
+| 8.c  |15.10.2022|           |Anzahl verlorene spiele Zusammen| 20 min|
+| 8.d  |15.10.2022|           |Zeigen wie viel Punkte der Spieler verloren hat|10 min|
+| 9.A  |15.10.2022|           |Auswahl Symbole Farben|15 min|
+| 10.A |15.10.2022|           |Spieler kann Symbole selber erstellen|15 min|
+| 11.A|15.10.2022|           |Revanch-Option| 30 min|
+|     |15.10.2022|           |              |               |
+|     |       |           |              |               |
+|     |       |           |              |               |
+|     |       |           |              |               |
+|     |       |           |              |               |
+|     |       |           |              |               |
+|     |       |           |              |               |
+|     |       |           |              |               |
+|     |       |           |              |               |
+|     |       |           |              |               |
+|     |       |           |              |               |
+|     |       |           |              |               |
 
 Total: 
 
