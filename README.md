@@ -62,7 +62,8 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms
 
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
+✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen. ![grafik](https://user-images.githubusercontent.com/111046375/204484620-490bf7b9-e0e6-4f67-b0e0-2b5ed9c0dbbe.png)
+
 
 ## 2 Planen
 
