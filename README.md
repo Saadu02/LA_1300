@@ -69,36 +69,36 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |01.10.2022|           |zu zweit spielen |40 min|
-| 1.B  |01.10.2022|           |Auswahl ein Spieler oder zwei Spieler | 20 min|
-| 1.c  |01.10.2022|           |Spieler auswählen| 20 min|
-| 2.A  |01.10.2022|           |Ergebnis wer gewonnen |30 min|
-| 2.B  |01.10.2022|           |Gewonnen = grün anzeigen|20 min|
-| 2.C  |01.10.2022|           |Verloren = rot anzeigen| 15 min|
-| 2.d  |01.10.2022|           |Den Spieler gratulieren | 10 min|
-| 2.e  |01.10.2022|           |Den Satz mit Emoji und Farbe gestalten | 20 min|
-| 3.A  |01.10.2022|           |Spieler darf ein nur Zug haben|30 min|
-| 3.B  |01.10.2022|           |immer nach ein Zug ist der nächste Spieler dran| 15 min|
-| 4.A  |01.10.2022|           |Symbole erstellen|25 min|
-| 4.B  |01.10.2022|           |Sybolen auswahl|15 min|
-| 5.A  |08.10.2022|           |Computer erkennen, wer gewonnen hat|25 min|
-| 5.B  |08.10.2022|           |Mitteilung anzeigen wenn man gewinnt|15 min|
-| 5.C  |08.10.2022|           |Mitteilungssatz Farbig gestalten|15 min|
-| 6.A  |08.10.2022|           |Mitteilung erstellen wenn unentschieden|25 min|
-| 7.A  |08.10.2022|           |eingabe Spieler Name|10 min|
-| 8.A  |08.10.2022|           |Anzahl gewonnenen spiele Zusammen| 20 min|
-| 8.B  |15.10.2022|           |Zeigen wie viel Punkte der Spieler gewonnen hat|10 min|
-| 8.c  |15.10.2022|           |Anzahl verlorene spiele Zusammen| 20 min|
-| 8.d  |15.10.2022|           |Zeigen wie viel Punkte der Spieler verloren hat|10 min|
-| 9.A  |15.10.2022|           |Auswahl Symbole Farben|15 min|
-| 9.B  |15.102022 |           |Symbole grösse selber ändern| 10 min |
-| 10.A |15.10.2022|           |Spieler kann Symbole selber erstellen|15 min|
-| 11.A |15.10.2022|           |Revanch-Option| 30 min|
-| 12.A |22.10.2022|           |Das SpielFeld Farbig erstellen | 8 min|
-| 12.B |22.10.2022|           |Andere Hintergrundfarbe erstellen | 10 min|
-| 12.B |22.10.2022|           |Hintergrundfarbe ändern können von Spieler| 15 min|
-| 13.A |22.10.2022|           |Spieler fragen um das Spiel zu wiederholen|15 min|
-| 13.B |22.10.2022|           |Das spiel soll wiederholen wenn der Spieler ja ausgewählt hat|20 min|
+| 1.A  |01.10.2022|Sathana & Nils|zu zweit spielen |40 min|
+| 1.B  |01.10.2022|Sathana & Nils|Auswahl ein Spieler oder zwei Spieler | 20 min|
+| 1.c  |01.10.2022|Sathana & Nils|Spieler auswählen| 20 min|
+| 2.A  |01.10.2022|Sathana & Nils|Ergebnis wer gewonnen |30 min|
+| 2.B  |01.10.2022|Brandon|Gewonnen = grün anzeigen|20 min|
+| 2.C  |01.10.2022|Sathana & Nils|Verloren = rot anzeigen| 15 min|
+| 2.d  |01.10.2022|Brandon|Den Spieler gratulieren | 10 min|
+| 2.e  |01.10.2022|Brandon|Den Satz mit Emoji und Farbe gestalten | 20 min|
+| 3.A  |01.10.2022|Brandon|Spieler darf ein nur Zug haben|30 min|
+| 3.B  |01.10.2022|Brandon|immer nach ein Zug ist der nächste Spieler dran| 15 min|
+| 4.A  |01.10.2022|Sathana & Nils|Symbole erstellen|25 min|
+| 4.B  |01.10.2022|Brandon|Sybolen auswahl|15 min|
+| 5.A  |08.10.2022|Sathana & Nils|Computer erkennen, wer gewonnen hat|25 min|
+| 5.B  |08.10.2022|Sathana & Nils|Mitteilung anzeigen wenn man gewinnt|15 min|
+| 5.C  |08.10.2022|Brandon|Mitteilungssatz Farbig gestalten|15 min|
+| 6.A  |08.10.2022|Brandon|Mitteilung erstellen wenn unentschieden|25 min|
+| 7.A  |08.10.2022|Brandon|eingabe Spieler Name|10 min|
+| 8.A  |08.10.2022|Giuliano|Anzahl gewonnenen spiele Zusammen| 20 min|
+| 8.B  |15.10.2022|Giuliano|Zeigen wie viel Punkte der Spieler gewonnen hat|10 min|
+| 8.c  |15.10.2022|Giuliano|Anzahl verlorene spiele Zusammen| 20 min|
+| 8.d  |15.10.2022|Giuliano|Zeigen wie viel Punkte der Spieler verloren hat|10 min|
+| 9.A  |15.10.2022|Brandon|Auswahl Symbole Farben|15 min|
+| 9.B  |15.102022 |Giuliano|Symbole grösse selber ändern| 10 min |
+| 10.A |15.10.2022|Brandon|Spieler kann Symbole selber erstellen|15 min|
+| 11.A |15.10.2022|Brandon|Revanch-Option| 30 min|
+| 12.A |22.10.2022|Giuliano|Das SpielFeld Farbig erstellen | 8 min|
+| 12.B |22.10.2022|Giuliano|Andere Hintergrundfarbe erstellen | 10 min|
+| 12.B |22.10.2022|Giuliano|Hintergrundfarbe ändern können von Spieler| 15 min|
+| 13.A |22.10.2022|Giuliano|Spieler fragen um das Spiel zu wiederholen|15 min|
+| 13.B |22.10.2022|Giuliano|Das spiel soll wiederholen wenn der Spieler ja ausgewählt hat|20 min|
 |     |       |           |              |               |
 
 Total: 
