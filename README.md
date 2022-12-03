@@ -5,31 +5,33 @@ Gruppe Croissant, Brandon, Giuliano, Nils, Sathana
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 |       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | 0.01    |Projektdukumentation Kapitel 1 bis 3 abgeschlossen|
-|       | 1.0.0   |                                                              |
+|27.11.2022| 0.0.1    |Projektdukumentation Kapitel 1 bis 3 abgeschlossen|
+|27.11.2022| 1.0.0   |Use case Diagramm fertig erstellt|
+|01.12.2022| 2.0.0   | Für one player spiel programmiert |
+|08.12.2022| 3.0.0   |                          |
 
 ## 1 Informieren
 
 ### 1.1 Ihr Projekt
 
-Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms
+Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms.
 
 ### 1.2 User Stories
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |        Muss    |   F  | Als User möchte ich, dass ich zu Zweit ein Spiel spielen kann, damit das Programm seinen Zweck erfüllt.|
-| 2 |       Muss          |  F    |    Als User möchte ich, dass es anzeigt wer gewonnen hat, damit der Sieger sich freuen kann.                       |
-| 3 |    Muss             | F    |    Als User möchte ich, dass ich mein Zug nach ein Mal platzieren zu Ende ist, damit es fair ist.                                |
-| 4|       Muss          |  F    |      Als User möchte ich, dass ich mein Symbol im Feld platzieren kann, damit das Spiel funktioniert-                              |
-| 5 |      Muss           | F     |       Als User möchte ich, dass das Programm erkennt wenn jemand gewonnen hat, damit das Spiel entschieden werden kann.                             |
-| 6 |      Kann           |  F    |    Als User möchte ich, dass wenn es ein Unentschieden gibt, dass es mir dann mitgeteilt wird, damit ich meine Zeit nicht verschwende.                                |
-| 7 |    Kann            | Q     |   Als User möchte ich, dass ich einen Namen eingeben können, damit später noch weiss welches Symbol ich hatte.                                |
-| 8 |      Kann           |  Q    |       Als User möchte ich, dass die Punkte gezählt und angezeigt werden, damit ich weiss wie oft ich schon gewonnen habe.                             |
-| 9 |     Kann            |  Q    |     Als User möchte ich, die Farbe meines Kreises/Kreuzes anpassen, damit es mir besser gefällt.                   |
-| 10|    Kann             |   Q   |       Als User möchte ich, dass ich mein Symbol ändern kann, damit es besser aussieht.                             |
-| 11 |    Kann             | Q    |    Als User möchte ich, eine Revanche-Option haben, damit ich nochmal spielen kann.                                |
-| 12 | kann                | Q   | Als User möchte ich, das dieses Spiel schön und Farbig gestaltet ist, damit das Aussehen von dieses Spiel nicht langweilig wird |
+| 1 | Muss | F | Als User möchte ich, dass ich zu Zweit ein Spiel spielen kann, damit das Programm seinen Zweck erfüllt.|
+| 2 | Muss | F | Als User möchte ich, dass es anzeigt wer gewonnen hat, damit der Sieger sich freuen kann. |
+| 3 | Muss | F | Als User möchte ich, dass ich mein Zug nach ein Mal platzieren zu Ende ist, damit es fair ist. |
+| 4 | Muss | F | Als User möchte ich, dass ich mein Symbol im Feld platzieren kann, damit das Spiel funktioniert- |
+| 5 | Muss | F | Als User möchte ich, dass das Programm erkennt wenn jemand gewonnen hat, damit das Spiel entschieden werden kann. |
+| 6 | Kann | F | Als User möchte ich, dass wenn es ein Unentschieden gibt, dass es mir dann mitgeteilt wird, damit ich meine Zeit nicht verschwende. |
+| 7 | Kann | Q | Als User möchte ich, dass ich einen Namen eingeben können, damit später noch weiss welches Symbol ich hatte. |
+| 8 | Kann | Q | Als User möchte ich, dass die Punkte gezählt und angezeigt werden, damit ich weiss wie oft ich schon gewonnen habe. |
+| 9 | Kann | Q | Als User möchte ich, die Farbe meines Kreises/Kreuzes anpassen, damit es mir besser gefällt. |
+| 10| Kann | Q | Als User möchte ich, dass ich mein Symbol ändern kann, damit es besser aussieht. |
+| 11 | Kann | Q | Als User möchte ich, eine Revanche-Option haben, damit ich nochmal spielen kann. |
+| 12 | kann | Q | Als User möchte ich, das dieses Spiel schön und Farbig gestaltet ist, damit das Aussehen von dieses Spiel nicht langweilig wird |
 | 13 | muss |  F | Als user möchte ich das spiel wiederholen wenn ich verloren habe, damit ich ein gewinn chance habe| 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
@@ -38,24 +40,24 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |  Programm startet            |  2 Spieler       |  Das Spiel beginnt                 |
-| 2.1  |  Spiel beendet            | -        |  Spieler 1 hat das Spiel gewonnen.                |
-| 2.2  |  Spiel beendet            | -        |  Spieler 2 hat das Spiel gewonnen.                 |
-| 3.1  |  Programm wartet auf Eingabe            |  x auf 2       |  Ihr Zug ist zuende.                 |
-| 3.2  |  Programm wartet auf Eingabe            |  -       |  Spieler 1 am Zug                 |
-| 4.1  |  Programm wartet auf Eingabe            |  o auf 3       |  o wurde auf Feld 3 gesetzt.                 |
-| 4.2  |  Programm wartet auf Eingabe            |  o auf 2       |  Feld ist besetzt                 |
-| 4.3  |  Programm wartet auf Eingabe            |  x auf 20       |  Geben sie ein gültiges Feld ein.                 |
-| 5.1  |  Programm wird beendet            |  Gewinner       |  Gewonnen hat Spieler 1.                |
-| 6.1  |  Programm wird beendet            |  Gewinner       |  Es ist ein Unentschieden.                 |
-| 7.1  |  Programm wartet auf Namen            |  Tom       |  Tom ist am Zug.                 |
-| 7.2  |  Programm wartet auf Namen            |  #%6g       |  Geben sie einen Gültigen Namen ein.                 |
-| 8.1  |  Programm startet nochmals            |  meine Punkte       |  Sie haben 3 Punkte.                 |
-| 9.1  |  Programm startet            |  Farbe Rot       |  Ihr Symbol ist Rot.                 |
-| 10.1 |  Programm startet            |  Symbol ändern auf -      |  Ihr Symbol ist ein Strich.                 |
-| 10.2 |  Programm startet  |  Symbol ändern auf k   |  Das Symbol k nicht verfügbar.               |
-| 11.1  |  Programm wird beendet            |  Revanche       |  Sie möchten eine Revanche haben.                 |
-| 12.1  |  Programm startet            |  -       |  Programm hat blauen Hintergrund                 |
+| 1.1  |  Programm startet |  2 Spieler |  Das Spiel beginnt |
+| 2.1  |  Spiel beendet | - |  Spieler 1 hat das Spiel gewonnen. |
+| 2.2  |  Spiel beendet | - |  Spieler 2 hat das Spiel gewonnen. |
+| 3.1  |  Programm wartet auf Eingabe |  x auf 2 |  Ihr Zug ist zuende. |
+| 3.2  |  Programm wartet auf Eingabe |  -       |  Spieler 1 am Zug |
+| 4.1  |  Programm wartet auf Eingabe |  o auf 3 |  o wurde auf Feld 3 gesetzt. |
+| 4.2  |  Programm wartet auf Eingabe |  o auf 2 |  Feld ist besetzt |
+| 4.3  |  Programm wartet auf Eingabe |  x auf 20 |  Geben sie ein gültiges Feld ein. |
+| 5.1  |  Programm wird beendet |  Gewinner |  Gewonnen hat Spieler 1. |
+| 6.1  |  Programm wird beendet |  Gewinner |  Es ist ein Unentschieden. |
+| 7.1  |  Programm wartet auf Namen |  Tom |  Tom ist am Zug. |
+| 7.2  |  Programm wartet auf Namen |  #%6g |  Geben sie einen Gültigen Namen ein. |
+| 8.1  |  Programm startet nochmals |  meine Punkte |  Sie haben 3 Punkte. |
+| 9.1  |  Programm startet |  Farbe Rot |  Ihr Symbol ist Rot. |
+| 10.1 |  Programm startet |  Symbol ändern auf - |  Ihr Symbol ist ein Strich. |
+| 10.2 |  Programm startet  |  Symbol ändern auf k   |  Das Symbol k nicht verfügbar. |
+| 11.1  |  Programm wird beendet |  Revanche |  Sie möchten eine Revanche haben. |
+| 12.1  |  Programm startet |  - |  Programm hat blauen Hintergrund |
 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
