@@ -111,7 +111,7 @@ Total:
 
 ## 3 Entscheiden
 
-Wir haben uns für ein Tic-Tac-Toe mit wenigen Erweiterungem entschieden. Mit Bezug auf das Spielerlebnis. Wir haben entschied, dass das Spiel und ergebnisse farbig aussehen soll.
+Wir haben uns für ein Tic-Tac-Toe mit wenigen Erweiterungem entschieden. Mit Bezug auf das Spielerlebnis. Wir haben entschieden, dass das Spiel und ergebnisse farbig aussehen soll.
 ✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
 
 ## 4 Realisieren
