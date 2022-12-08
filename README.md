@@ -23,17 +23,18 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms.
 | 1 | Muss | F | Als User möchte ich, dass ich zu Zweit ein Spiel spielen kann, damit das Programm seinen Zweck erfüllt.|
 | 2 | Muss | F | Als User möchte ich, dass es anzeigt wer gewonnen hat, damit der Sieger sich freuen kann. |
 | 3 | Muss | F | Als User möchte ich, dass ich mein Zug nach ein Mal platzieren zu Ende ist, damit es fair ist. |
-| 4 | Muss | F | Als User möchte ich, dass ich mein Symbol im Feld platzieren kann, damit das Spiel funktioniert- |
+| 4 | Muss | F | Als User möchte ich, dass ich mein Symbol im Feld platzieren kann, damit das Spiel funktioniert. |
 | 5 | Muss | F | Als User möchte ich, dass das Programm erkennt wenn jemand gewonnen hat, damit das Spiel entschieden werden kann. |
 | 6 | Kann | F | Als User möchte ich, dass wenn es ein Unentschieden gibt, dass es mir dann mitgeteilt wird, damit ich meine Zeit nicht verschwende. |
 | 7 | Kann | Q | Als User möchte ich, dass ich einen Namen eingeben können, damit später noch weiss welches Symbol ich hatte. |
 | 8 | Kann | Q | Als User möchte ich, dass die Punkte gezählt und angezeigt werden, damit ich weiss wie oft ich schon gewonnen habe. |
 | 9 | Kann | Q | Als User möchte ich, die Farbe meines Kreises/Kreuzes anpassen, damit es mir besser gefällt. |
-| 10| Kann | Q | Als User möchte ich, dass ich mein Symbol ändern kann, damit es besser aussieht. |
+| 10| Kann | Q | Als User möchte ich, dass es zwei verschiedene Symbole gibt, damit es besser aussieht. |
 | 11 | Kann | Q | Als User möchte ich, eine Revanche-Option haben, damit ich nochmal spielen kann. |
 | 12 | kann | Q | Als User möchte ich, das dieses Spiel schön und Farbig gestaltet ist, damit das Aussehen von dieses Spiel nicht langweilig wird |
 | 13 | muss |  F | Als user möchte ich das spiel wiederholen wenn ich verloren habe, damit ich ein gewinn chance habe| 
 | 14 | muss | Q | Als user möchte ich ein Button mit der Name End, damit ich das Spiel aufhört.| 
+| 15 | muss | Q | Als user möchte ich mit dem Programm ein einzel Spiel spielen, damit ich auch alleine spielen kann. |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -41,24 +42,22 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms.
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |  Programm startet |  2 Spieler |  Das Spiel beginnt |
-| 2.1  |  Spiel beendet | - |  Spieler 1 hat das Spiel gewonnen. |
-| 2.2  |  Spiel beendet | - |  Spieler 2 hat das Spiel gewonnen. |
-| 3.1  |  Programm wartet auf Eingabe |  x auf 2 |  Ihr Zug ist zuende. |
-| 3.2  |  Programm wartet auf Eingabe |  -       |  Spieler 1 am Zug |
-| 4.1  |  Programm wartet auf Eingabe |  o auf 3 |  o wurde auf Feld 3 gesetzt. |
-| 4.2  |  Programm wartet auf Eingabe |  o auf 2 |  Feld ist besetzt |
-| 4.3  |  Programm wartet auf Eingabe |  x auf 20 |  Geben sie ein gültiges Feld ein. |
-| 5.1  |  Programm wird beendet |  Gewinner |  Gewonnen hat Spieler 1. |
-| 6.1  |  Programm wird beendet |  Gewinner |  Es ist ein Unentschieden. |
-| 7.1  |  Programm wartet auf Namen |  Tom |  Tom ist am Zug. |
-| 7.2  |  Programm wartet auf Namen |  #%6g |  Geben sie einen Gültigen Namen ein. |
-| 8.1  |  Programm startet nochmals |  meine Punkte |  Sie haben 3 Punkte. |
-| 9.1  |  Programm startet |  Farbe Rot |  Ihr Symbol ist Rot. |
-| 10.1 |  Programm startet |  Symbol ändern auf - |  Ihr Symbol ist ein Strich. |
-| 10.2 |  Programm startet  |  Symbol ändern auf k   |  Das Symbol k nicht verfügbar. |
-| 11.1  |  Programm wird beendet |  Revanche |  Sie möchten eine Revanche haben. |
-| 12.1  |  Programm startet |  - |  Programm hat blauen Hintergrund |
+| 1.1  | Programm startet | two 2 Players  |  Das Spiel beginnt |
+| 2.1  | Benutzer spielt bis er gewonnen hat | Button klicken | Player ..... wins |
+| 2.2  | Andere User spielt bis er gewonnen hat | Button klicken | Player ..... hat wins |
+| 3.1  | Spieler spielen abwechslungweise | button klicken | Jede Spieler hat nur ein zug|
+| 5.1  | Spielr spielen | Button klicken O/O | Programm zeigt wer gewonnen hat |
+| 6.1  | Benutzer spielen bis es unentschieden wird | Button klicken | Draw !|
+| 7.1  | Programm startet | Eingabe name von Spieler 1/2 | -|
+| 8.1  | Spieler spielen mehrere Runden | Button klicken | Anzahl gewonnenen Punktzahl |
+| 9.1  | -         |   -      |    -     |
+| 10.1 | Spieler entscheidet x oder o | - | - |
+| 11.1 | Spieler haben fertig gespielt | Button Reset klicken | Spiel fängt von vorne an|
+| 12.1 | Spieler 1 gewinnt | Button klicken | blau |
+| 12.1 | Spieler 2 gewinnt | Button klicken | pink |
+| 15.1 | Programm startet | Button--> one Player | Spiel mit ein Spieler|
+| 13.1 | Spieler spielen (one Player) | Button --> Reset | Spiel fängt von vorne an|
+| 14.1 | Spieler haben fertig gespielt | Buttom--> End | Programm schliesst| 
 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
@@ -95,7 +94,7 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms.
 | 8.d  |08.10.2022|Giuliano|Zeigen wie viel Punkte der Spieler verloren hat|10 min|
 | 9.A  |08.10.2022|Brandon|Auswahl Symbole Farben oder Button Farbe|15 min|
 | 9.B  |15.10.2022|Giuliano|Symbole grösse oder Button grösse bestimmen| 10 min |
-| 10.A |15.10.2022|Brandon|Spieler kann Symbole selber erstellen|15 min|
+| 10.A |15.10.2022|Brandon|Zwei verschiedene Symbole|15 min|
 | 11.A |15.10.2022|Brandon|Revanch-Option/Button| 30 min|
 | 12.A |15.10.2022|Giuliano|Das SpielFeld Farbig erstellen | 15 min|
 | 12.B |15.10.2022|Giuliano|Andere Hintergrundfarbe erstellen | 10 min|
@@ -142,7 +141,7 @@ Wir haben uns für ein Tic-Tac-Toe mit wenigen Erweiterungem entschieden. Mit Be
 | 8.d  |08.10.2022|Sathana & Giuliano|10 min|10 min|
 | 9.A  |08.10.2022|Sathana & Nils|15 min|17 min|
 | 9.B  |15.10.2022|Sathana & Giuliano|10 min |10 min|
-| 10.A |15.10.2022|Sathana & Giuliano|15 min|  -  |
+| 10.A |15.10.2022|Sathana & Giuliano|15 min|5 min|
 | 11.A |15.10.2022|Sathana & Nils|30 min|15 min|
 | 12.A |01.10.2022|Sathana & Nils|15 min|15 min|
 | 12.B |01.10.2022|Sathana & Nils|10 min|8 min|
