@@ -33,6 +33,7 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms.
 | 11 | Kann | Q | Als User möchte ich, eine Revanche-Option haben, damit ich nochmal spielen kann. |
 | 12 | kann | Q | Als User möchte ich, das dieses Spiel schön und Farbig gestaltet ist, damit das Aussehen von dieses Spiel nicht langweilig wird |
 | 13 | muss |  F | Als user möchte ich das spiel wiederholen wenn ich verloren habe, damit ich ein gewinn chance habe| 
+| 14 | muss | Q | Als user möchte ich ein Button mit der Name End, damit ich das Spiel aufhört.| 
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -85,22 +86,22 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms.
 | 4.B  |01.10.2022|Brandon|Sybolen auswahl|15 min|
 | 5.A  |08.10.2022|Sathana & Nils|Computer erkennen, wer gewonnen hat|25 min|
 | 5.B  |08.10.2022|Sathana & Nils|Mitteilung anzeigen wenn man gewinnt|15 min|
-| 5.C  |08.10.2022|Brandon|Mitteilungssatz Farbig gestalten|15 min|
+| 5.C  |08.10.2022|Brandon|Mitteilungssatz oder Form Hintergrund Farbig gestalten|15 min|
 | 6.A  |08.10.2022|Brandon|Mitteilung erstellen wenn unentschieden|25 min|
 | 7.A  |08.10.2022|Brandon|eingabe Spieler Name|10 min|
 | 8.A  |08.10.2022|Giuliano|Anzahl gewonnenen spiele Zusammen| 20 min|
 | 8.B  |08.10.2022|Giuliano|Zeigen wie viel Punkte der Spieler gewonnen hat|10 min|
 | 8.c  |08.10.2022|Giuliano|Anzahl verlorene spiele Zusammen| 20 min|
 | 8.d  |08.10.2022|Giuliano|Zeigen wie viel Punkte der Spieler verloren hat|10 min|
-| 9.A  |08.10.2022|Brandon|Auswahl Symbole Farben|15 min|
-| 9.B  |15.10.2022|Giuliano|Symbole grösse selber ändern| 10 min |
+| 9.A  |08.10.2022|Brandon|Auswahl Symbole Farben oder Button Farbe|15 min|
+| 9.B  |15.10.2022|Giuliano|Symbole grösse oder Button grösse bestimmen| 10 min |
 | 10.A |15.10.2022|Brandon|Spieler kann Symbole selber erstellen|15 min|
-| 11.A |15.10.2022|Brandon|Revanch-Option| 30 min|
+| 11.A |15.10.2022|Brandon|Revanch-Option/Button| 30 min|
 | 12.A |15.10.2022|Giuliano|Das SpielFeld Farbig erstellen | 15 min|
 | 12.B |15.10.2022|Giuliano|Andere Hintergrundfarbe erstellen | 10 min|
 | 12.c |15.10.2022|Giuliano|Hintergrundfarbe ändern können von Spieler| 15 min|
-| 13.A |15.10.2022|Giuliano|Spieler fragen um das Spiel zu wiederholen|15 min|
-| 13.B |15.10.2022|Giuliano|Das spiel soll wiederholen wenn der Spieler ja ausgewählt hat|20 min|
+| 13.A |15.10.2022|Giuliano|Button um das Spiel zu wiederholen|15 min|
+| 14.A |15.10.2022|Giuliano|Button um das spiel Spiel zu beenden|20 min|
 
 
 Total: 
@@ -118,36 +119,36 @@ Wir haben uns für ein Tic-Tac-Toe mit wenigen Erweiterungem entschieden. Mit Be
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |08.12.2022|Sathana & Nils|40 min|                   |
+| 1.A  |08.12.2022|Sathana & Nils|40 min|35 min|
 | 1.b  |01.12.2022|Sathana & Nils|20 min|15 min|
 | 1.c  |01.12.2022|Sathana & Nils|20 min|20 min|
 | 2.A  |01.10.2022|Sathana & Nils|30 min|30 min| 
-| 2.B  |08.10.2022|Sathana & Brandon|20 min|                   |
-| 2.C  |08.10.2022|Sathana & Brandon|15 min|                   |
-| 2.d  |08.10.2022|Sathana & Brandon|10 min|                   |
-| 2.e  |08.10.2022|Sathana & Brandon|20 min|                  |
+| 2.B  |08.10.2022|Sathana & Brandon|20 min|15 min|
+| 2.C  |08.10.2022|Sathana & Brandon|15 min|15 min|
+| 2.d  |08.10.2022|Sathana & Brandon|10 min|10 min|
+| 2.e  |08.10.2022|Sathana & Brandon|20 min|15 min (ohne Emoji)|
 | 3.A  |01.10.2022|Sathana & Giuliano|30 min|25 min|
-| 3.B  |01.10.2022|Sathana & Giuliano|15 min| 10 min|
+| 3.B  |01.10.2022|Sathana & Giuliano|15 min|10 min|
 | 4.A  |01.10.2022|Sathana & Nils|25 min|25 min|
-| 4.B  |08.10.2022|Sathana & Brandon|15 min|                 |
-| 5.A  |01.10.2022|Sathana & Giuliano|25 min|25 min |
-| 5.B  |08.10.2022|Sathana & Brandon|15 min|                |
-| 5.C  |08.10.2022|Sathana & Brandon|15 min|                  |
-| 6.A  |08.10.2022|Sathana & Brandon|25 min|                 |
-| 7.A  |08.10.2022|Sathana & Brandon|10 min|                 | 
-| 8.A  |08.10.2022|Sathana & Giuliano|20 min|      |
-| 8.B  |08.10.2022|Sathana & Giuliano|10 min|    |
-| 8.c  |08.10.2022|Sathana & Giuliano|20 min|    |
-| 8.d  |08.10.2022|Sathana & Giuliano|10 min|    |
-| 9.A  |08.10.2022|Sathana & Nils|15 min|     |
-| 9.B  |15.10.2022|Sathana & Giuliano|10 min |     |
-| 10.A |15.10.2022|Sathana & Giuliano|15 min|    |
-| 11.A |15.10.2022|Sathana & Nils|30 min|   |
+| 4.B  |08.10.2022|Sathana & Brandon|15 min|10 min|
+| 5.A  |01.10.2022|Sathana & Giuliano|25 min|25 min|
+| 5.B  |08.10.2022|Sathana & Brandon|15 min|15 min|
+| 5.C  |08.10.2022|Sathana & Brandon|15 min|15 min|
+| 6.A  |08.10.2022|Sathana & Brandon|25 min|20 min|
+| 7.A  |08.10.2022|Sathana & Brandon|10 min|8 min| 
+| 8.A  |08.10.2022|Sathana & Giuliano|20 min|15 min|
+| 8.B  |08.10.2022|Sathana & Giuliano|10 min|10 min|
+| 8.c  |08.10.2022|Sathana & Giuliano|20 min|15 min|
+| 8.d  |08.10.2022|Sathana & Giuliano|10 min|10 min|
+| 9.A  |08.10.2022|Sathana & Nils|15 min|17 min|
+| 9.B  |15.10.2022|Sathana & Giuliano|10 min |10 min|
+| 10.A |15.10.2022|Sathana & Giuliano|15 min|  -  |
+| 11.A |15.10.2022|Sathana & Nils|30 min|15 min|
 | 12.A |01.10.2022|Sathana & Nils|15 min|15 min|
-| 12.B |01.10.2022|Sathana & Nils|10 min| 8 min|
-| 12.c |15.10.2022|Sathana & Giuliano|15 min|    |
-| 13.A |15.10.2022|Sathana & Nils|15 min| |
-| 13.B |15.10.2022|Sathana & Brandon|20 min|  |
+| 12.B |01.10.2022|Sathana & Nils|10 min|8 min|
+| 12.c |15.10.2022|Sathana & Giuliano|15 min|-|
+| 13.A |15.10.2022|Sathana & Nils|15 min| 15 min|
+| 14.A |15.10.2022|Sathana & Brandon|20 min|10 min|
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
