@@ -82,7 +82,7 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms.
 | 3.A  |01.10.2022|Brandon|Spieler darf ein nur Zug haben|30 min|
 | 3.B  |01.10.2022|Brandon|immer nach ein Zug ist der nächste Spieler dran| 15 min|
 | 4.A  |01.10.2022|Sathana & Nils|Symbole erstellen|25 min|
-| 4.B  |01.10.2022|Brandon|Sybolen auswahl|15 min|
+| 4.B  |01.10.2022|Brandon|Symbolen auswahl|15 min|
 | 5.A  |08.10.2022|Sathana & Nils|Computer erkennen, wer gewonnen hat|25 min|
 | 5.B  |08.10.2022|Sathana & Nils|Mitteilung anzeigen wenn man gewinnt|15 min|
 | 5.C  |08.10.2022|Brandon|Mitteilungssatz oder Form Hintergrund Farbig gestalten|15 min|
