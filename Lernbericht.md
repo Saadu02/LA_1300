@@ -1,5 +1,5 @@
 # Lern-Bericht
-Hallo wir sind die Gruppe Brandon, unsere Teammitglieder sind Brandon
+Hallo wir sind die Gruppe Croissant, unsere Teammitglieder: Brandon, Sathana, Nils und Giuliano
 
 ## Einleitung
 
