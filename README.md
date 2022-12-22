@@ -154,8 +154,22 @@ Wir haben uns für ein Tic-Tac-Toe mit wenigen Erweiterungen entschieden. Mit Be
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 22.12.2022 | OK | Brandon |
+| 2.1  | 22.12.2022 | OK | Brandon |
+| 2.2  | 22.12.2022 | OK | Brandon |
+| 3.1  | 22.12.2022 | OK | Brandon |
+| 5.1  | 22.12.2022 | OK | Brandon |
+| 6.1  | 22.12.2022 | OK | Brandon |
+| 7.1  | 22.12.2022 | OK | Brandon |
+| 8.1  | 22.12.2022 | OK | Brandon |
+| 9.1  | 22.12.2022 | NOK | Brandon |
+| 10.1 | 22.12.2022 | OK | Brandon |
+| 11.1 | 22.12.2022 | OK | Brandon |
+| 12.1 | 22.12.2022 | OK | Brandon |
+| 12.1 | 22.12.2022 | OK | Brandon |
+| 15.1 | 22.12.2022 | OK | Brandon |
+| 13.1 | 22.12.2022 | OK | Brandon |
+| 14.1 | 22.12.2022 | OK | Brandon |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
