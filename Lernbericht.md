@@ -1,5 +1,5 @@
 # Lern-Bericht
-✍️ ggf. Ihr Gruppenname und Ihre Gruppenmitglieder
+Hallo wir sind die Gruppe Brandon, unsere Teammitglieder sind Brandon
 
 ## Einleitung
 
