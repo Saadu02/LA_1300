@@ -3,8 +3,6 @@
 Gruppe Croissant, Brandon, Giuliano, Nils, Sathana
 
 | Datum | Version | Zusammenfassung                                              |
-| ----- | ------- | ------------------------------------------------------------ |
-|       | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
 |27.11.2022| 0.0.1    |Projektdokumentation, Kapitel 1 bis 3 abgeschlossen|
 |27.11.2022| 1.0.0   |Use Case Diagramm fertig erstellt|
 |01.12.2022| 2.0.0   | Für One Player spiel programmiert |
@@ -36,7 +34,6 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms.
 | 14 | muss | Q | Als User möchte ich ein Button mit der Name End, damit ich das Spiel aufhört.| 
 | 15 | muss | Q | Als User möchte ich mit dem Programm ein Einzelspiel spielen, damit ich auch alleine spielen kann. |
 
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
 ### 1.3 Testfälle
 
@@ -60,11 +57,9 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms.
 | 14.1 | Spieler haben fertig gespielt | Button--> End | Programm schliesst| 
 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
-
 ### 1.4 Diagramme
 
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen. ![grafik](https://user-images.githubusercontent.com/111046375/204484620-490bf7b9-e0e6-4f67-b0e0-2b5ed9c0dbbe.png)
+ ![grafik](https://user-images.githubusercontent.com/111046375/204484620-490bf7b9-e0e6-4f67-b0e0-2b5ed9c0dbbe.png)
 
 
 ## 2 Planen
@@ -105,14 +100,11 @@ Wir Programmieren ein Tic-Tac-Toe mit Hilfe von WinForms.
 
 Total: 
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 ## 3 Entscheiden
 
 Wir haben uns für ein Tic-Tac-Toe mit wenigen Erweiterungen entschieden. Mit Bezug auf das Spielerlebnis. Wir haben entschieden, dass das Spiel und Ergebnisse  farbig aussehen soll.
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie in Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+
 
 ## 4 Realisieren
 
@@ -149,7 +141,7 @@ Wir haben uns für ein Tic-Tac-Toe mit wenigen Erweiterungen entschieden. Mit Be
 | 13.A |15.10.2022|Sathana & Nils|15 min| 15 min|
 | 14.A |15.10.2022|Sathana & Brandon|20 min|10 min|
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+
 
 ## 5 Kontrollieren
 
