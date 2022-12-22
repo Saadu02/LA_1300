@@ -175,4 +175,4 @@ Die Tests sind weitgehend erfolgreich verlaufen. Es gibt jedoch etwas was wir no
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+https://github.com/Saadu02/LA_1300/blob/main/Lernbericht.md
