@@ -2,11 +2,16 @@
 
 Gruppe Croissant, Brandon, Giuliano, Nils, Sathana
 
+
 | Datum | Version | Zusammenfassung                                              |
+| ----- | ------- | ------------------------------------------------------------ |
 |27.11.2022| 0.0.1    |Projektdokumentation, Kapitel 1 bis 3 abgeschlossen|
 |27.11.2022| 1.0.0   |Use Case Diagramm fertig erstellt|
 |01.12.2022| 2.0.0   | Für One Player spiel programmiert |
 |08.12.2022| 3.0.0   |Für Two Player Spiel programmiert |
+
+
+
 
 ## 1 Informieren
 
