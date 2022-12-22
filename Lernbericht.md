@@ -11,7 +11,8 @@ Wir haben gelernt, wie man bei WinForms, von einem Form zum nächsten wechseln k
 
 ## Beschreibung
 
-Um die verschiedene Modi auszuwählen, haben wir das Formwechseln benutzt. So muss man das Programm nicht neu starten um von Einzelspieler zu Mehrspieler zu wechseln,  sondern kann zurück ins Hauptmenu und von dort aus den Modus auswählen.
+In unserem Programm hat es verschieden Spielmodi. Um es für den User angenehm zu gestalten haben wir deshalb einen Weg gebraucht, um den Modus zu wechseln ohne das Programm neu starten zu müssen. Deshalb haben wir die Formwechsel Funktion verwendet. Diese ermöglicht es einem das aktuelle Form zu schliessen und ein neues zu öffnen. Diese Funktion hat es uns ermöglicht eine bessere Spielerfahrung für den User zu erstellen, damit er das Programm ohne Komplikationen benutzen kann.
+Durch die Funktion kann man jetzt, wenn man will, immer wieder zurück ins Hauptmenu kommen, ohne viel Aufwand dafür aufzubringen.
 
 ```csharp
         private void button1_Click(object sender, EventArgs e)
