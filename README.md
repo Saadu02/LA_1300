@@ -171,7 +171,7 @@ Wir haben uns für ein Tic-Tac-Toe mit wenigen Erweiterungen entschieden. Mit Be
 | 13.1 | 22.12.2022 | OK | Brandon |
 | 14.1 | 22.12.2022 | OK | Brandon |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+Die Tests sind weitgehend erfolgreich verlaufen. Es gibt jedoch etwas was wir noch nicht programmiert haben und deswegen steht es hier 9.1 NOK. Das Tic-Tac-Toe kann man weiterspielen.
 
 ## 6 Auswerten
 
