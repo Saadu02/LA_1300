@@ -1,31 +1,48 @@
 # Lern-Bericht
-Hallo wir sind die Gruppe Croissant, unsere Teammitglieder: Brandon, Sathana, Nils und Giuliano
+Croissant Martullo, Spaqi, Suganthasri, Wiederkehr
 
 ## Einleitung
 
-✍️ Ein Satz, worum es in dem Projekt ging. Muss für einen externen Leser einfach zu verstehen sein.
+Wir haben mit WinForms Tic-Tac-Toe programmiert.
 
 ## Was habe ich gelernt?
 
-✍️ Beschreiben Sie in einem Satz **eine** Sache, die Sie bei diesem Projekt gelernt haben und die Sie in diesem Lern-Bericht dokumentieren.
+Wir haben gelernt wie man bei WinForms, von einem Form zum nächsten wechseln kann.
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
+Um die verschiedene Modi auszuwählen haben wir das Formwechseln benutzt. So muss man das Progamm nicht neustarten um von Einzelspieler zu Mehrspieler zu wechseln sondern kann zurück ins Hauptmenu und von dort aus den Modus auswählen.
 
-* Eine textliche Beschreibung
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+```csharp
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            One_Player f3 = new One_Player();
+            f3.ShowDialog();
+        }
+
+```
+
+https://user-images.githubusercontent.com/111045891/209089419-58a0a36b-869b-4d84-96c7-990e33ff3cf7.mp4
+
+
+
 
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+Text: Weshalb wir das Forms wechseln benutzt haben.
+Code: Ausschnitt aus unserem Code welches auf Knopfdruck Forms wechselt.
+Video: Wie es in unserem Projekt schlussendlich aussieht.
 
 # Reflexion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+Was gut lief:
 
-👎 und etwas, was nicht gut lief.
+Unsere Zusammenarbeit har sehr gut funktiniert, da wir die Aufgaben fair verteilt haben und jeder seinen Teil beigetragen hat.
+
+Was nicht so gut lief:
+
+Wir hatten anfangs Probleme uns mit WinForms zurechtzufinden, da wir noch nicht damit gearbeitet haben und es erstmal lernen mussten.
+
 
 **VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
